@@ -23,5 +23,20 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 let someNumber = 20
 
-let stringNumber = String(someNumber)
-console.log(typeof stringNumber);
+// let stringNumber = String(someNumber)
+// console.log(typeof stringNumber);
+
+
+// **************************Operations**************************
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
