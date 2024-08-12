@@ -36,3 +36,28 @@ const myFunction = function(){
 console.log(typeof cars);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// --------------------------------------------------------------------
+
+// Stack (Promitive) Heap (Non-Primitive)
+
+let myName = "Punit"
+let anothername = myName;
+anothername = "abc"
+
+console.log(myName);
+console.log(anothername);
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybi",
+}
+
+let userTwo = userOne
+
+userTwo.email = "anknown@google.com"
+
+console.log(userOne);
+console.log(userTwo);
+
